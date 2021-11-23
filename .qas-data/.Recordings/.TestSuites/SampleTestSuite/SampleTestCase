@@ -1,0 +1,110 @@
+{
+    "steps": [
+        {
+            "command": "Open",
+            "element": "",
+            "eArray": [],
+            "input": "https://www.qmetry.com/",
+            "status": "Passed",
+            "elementKey": "",
+            "elementDesc": "",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 14091000000,
+            "executedOn": "2021-11-23T19:13:44.550Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        },
+        {
+            "command": "Click",
+            "element": "link.visit.support",
+            "eArray": [
+                [
+                    "xpath=//a[text()='Visit support']",
+                    "xpath:innerText"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Support'])[2]/following::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Talk to Us'])[1]/following::a[3]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='Products'])[2]/preceding::a[1]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=(.//*[normalize-space(text()) and normalize-space(.)='QMetry Digital Quality Platform'])[2]/preceding::a[2]",
+                    "xpath:neighbor"
+                ],
+                [
+                    "xpath=//a[contains(text(),'Visit support')]",
+                    "xpath:link"
+                ],
+                [
+                    "xpath=//footer[@id='colophon']/div[2]/div/div/div/div[3]/div/div/a",
+                    "xpath:idRelative"
+                ],
+                [
+                    "xpath=//div[3]/div/div/a",
+                    "xpath:position"
+                ],
+                [
+                    "link.visit.support",
+                    "key"
+                ]
+            ],
+            "input": "",
+            "status": "Passed",
+            "elementKey": "link.visit support",
+            "elementDesc": "Link for Visit support",
+            "isEncrypted": false,
+            "isDisplay": false,
+            "iframeNode": [],
+            "indexColumn": "",
+            "tcId": "9",
+            "tsId": 8,
+            "testData": false,
+            "duration": 12912000000,
+            "executedOn": "2021-11-23T19:13:57.462Z",
+            "errMessage": "",
+            "isRowExpanded": false,
+            "@@mycolor": null
+        }
+    ],
+    "type": "web",
+    "capabilities": {
+        "remoteUrl": "https://www.qmetry.com/",
+        "type": "web",
+        "selectBrowser": "chrome",
+        "selectDevice": "",
+        "isRemote": false,
+        "remoteHubUrl": "http://127.0.0.1:4444/wd/hub/",
+        "isDebugMode": false,
+        "details": {
+            "deviceMetrics": {
+                "name": "",
+                "width": "",
+                "height": "",
+                "pixelRatio": "",
+                "userAgent": ""
+            }
+        }
+    },
+    "testDataExample": [],
+    "isTCValid": true,
+    "externalTestData": false,
+    "recordSessionType": "multiple",
+    "tags": [],
+    "description": "",
+    "shared": false,
+    "executionStatus": "Passed"
+}
